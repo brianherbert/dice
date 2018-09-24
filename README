@@ -1,3 +1,15 @@
 # Dice
 
-Scripts that roll dice.
+Multiple scripts that roll dice using Dungenons & Dragons die notation.
+
+## Bash
+
+```
+> sh roll.sh 2d10+4
+```
+
+## Perl
+
+```
+> perl roll.pl
+```
