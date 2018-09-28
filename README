@@ -1,6 +1,6 @@
 # Dice
 
-Multiple scripts that roll dice using Dungenons & Dragons die notation.
+Multiple scripts that roll dice using [dice notation](https://en.wikipedia.org/wiki/Dice_notation).
 
 ## Bash
 
@@ -13,3 +13,7 @@ Multiple scripts that roll dice using Dungenons & Dragons die notation.
 ```
 > perl roll.pl
 ```
+
+## Dice Regex
+
+/(?:(\d+)\s*X\s*)?(\d*)D(\d*)((?:[+\/*-]\d+)|(?:[+-][LH]))?/i
