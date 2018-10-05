@@ -11,7 +11,13 @@ Multiple scripts that roll dice using [dice notation](https://en.wikipedia.org/w
 ## Perl
 
 ```
-> perl roll.pl
+> perl roll.pl 2d10+4
+```
+
+## Lua
+
+```
+> lua roll.lua 2d10+4
 ```
 
 ## Dice Regex
