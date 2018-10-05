@@ -20,6 +20,12 @@ Multiple scripts that roll dice using [dice notation](https://en.wikipedia.org/w
 > lua roll.lua 2d10+4
 ```
 
+## R
+
+```
+> Rscript roll.r 2d10+4
+```
+
 ## Dice Regex
 
 /(?:(\d+)\s*X\s*)?(\d*)D(\d*)((?:[+\/*-]\d+)|(?:[+-][LH]))?/i
