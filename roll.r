@@ -1,14 +1,14 @@
 #!/usr/bin/env Rscript
 
-# TODO: Test for other incantations of die (works with 2d10+4 but not d6)
-
 die = commandArgs(trailingOnly=TRUE)[1]
-
-#print(die)
 
 split_die <- strsplit(die, "d")
 
 rolls <- as.integer(split_die[[1]][1])
+
+if (is.na(rolls)) {
+    rolls = 1
+}
 
 right_d <- split_die[[1]][2]
 
